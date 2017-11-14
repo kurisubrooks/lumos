@@ -1,0 +1,9 @@
+stage {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+}
+
+#panel {
+    background-color: #252525;
+    height: 1.86em;
+}
