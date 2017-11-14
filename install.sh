@@ -49,5 +49,8 @@ gsettings set org.gnome.desktop.wm.preferences titlebar-uses-system-font false
 gsettings set org.gnome.settings-daemon.plugins.xsettings hinting "slight"
 gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing "grayscale"
 
+# System Settings
+gsettings set org.gnome.desktop.interface clock-format "12h"
+
 # Done
 echo "Installation Complete, you may need to restart your session to see all changes"
