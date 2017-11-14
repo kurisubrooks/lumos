@@ -1,0 +1,30 @@
+/*
+ * reference
+ * https://developer.gnome.org/gtk3/stable/chap-css-overview.html
+ * https://developer.gnome.org/hig/stable/ui-elements.html.en
+ */
+
+.titlebar {
+    min-height: 42px;
+    background: #252525;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.csd .titlebar {
+    border: none;
+    outline: none;
+}
+
+.image-button,
+.slider-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 0;
+}
+
+.image-button:hover,
+.slider-button:hover {
+    background: red;
+}
