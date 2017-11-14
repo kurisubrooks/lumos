@@ -4,7 +4,7 @@
 if [ ! -d "$HOME/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com" ]; then
     echo "Installing GNOME User Themes Module"
     mkdir -p ~/.temp/
-    wget -O ~/.temp/shell-extension-install https://raw.githubusercontent.com/NicolasBernaerts/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage
+    wget -O -q ~/.temp/shell-extension-install https://raw.githubusercontent.com/NicolasBernaerts/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage
     chmod +x ~/.temp/shell-extension-install
     ~/.temp/shell-extension-install --install --extension-id 19 &> /dev/null
     echo "GNOME User Themes Module installed successfully"
