@@ -13,10 +13,10 @@ if [ ! -d "$HOME/.local/share/gnome-shell/extensions/user-theme@gnome-shell-exte
 fi
 
 # Install Fonts
-echo "Installing Fonts..."
-mkdir -p ~/.fonts/
-cp -R ./fonts ~/.fonts/
-fc-cache -f -v &> /dev/null
+#echo "Installing Fonts..."
+#mkdir -p ~/.fonts/
+#cp -R ./fonts ~/.fonts/
+#fc-cache -f -v &> /dev/null
 
 # Install GTK Theme
 echo "Installing Themes..."
@@ -50,4 +50,4 @@ gsettings set org.gnome.settings-daemon.plugins.xsettings hinting "slight"
 gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing "grayscale"
 
 # Done
-echo "Installation Complete"
+echo "Installation Complete, you may need to restart your session to see all changes"
